@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 cwd = os.getcwd()
 
 #Open the data file
-filepath = cwd + '\\demo.hdf'
+filepath = cwd + '/demo.hdf' # must use '/' if on OS X, '\\' if on Windows
 f = h5py.File(filepath, 'r')
 
 
